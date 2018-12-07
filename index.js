@@ -1,6 +1,7 @@
 const c3t1 = require('./6393-6391');
 
-function convert3To1(toConvert = ''){
+function convert3To1(toConvert){
+    toConvert = toConvert? toConvert : '';
     return c3t1[toConvert]
 }
 
